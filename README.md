@@ -42,8 +42,8 @@ The 16S rRNA abundance timeseries data used for prediction is small(hurdreds). S
 |**note**: the ground truth in iii) iv) is [real/fake, fake_z1, real_feature0]|
 
 
-5. Design
+## Design
 ![img1](./design.png)
 
-6. Result
+## Result
 ![img2](./AUC.png)
