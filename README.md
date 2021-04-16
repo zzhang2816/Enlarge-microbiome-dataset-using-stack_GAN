@@ -1,4 +1,7 @@
-# stack_GAN
+# Enlarge microbiome dataset using stack_GAN
+## Background
+The 16S rRNA abundance timeseries data used for prediction is small(hurdreds). So it is easy to suffer from overfitting. To solve the issue, the stack_GAN(generative adversarial network) is tried to conduce data augment. Then the Recurrent neural network(to be more specific, Long short-term memory) is used to do prediction. The dataset used is the same as in the Microbiome_Prediction, which server as the baseline for the prediction accurary.
+
 ## Three Loss Type
  - Adversarial loss
  - Conditional loss
@@ -41,3 +44,6 @@
 
 5. Design
 ![img1](./design.png)
+
+6. Result
+![img2](./AUC.png)
