@@ -47,3 +47,5 @@ The 16S rRNA abundance timeseries data used for prediction is small(hurdreds). S
 
 ## Result
 ![img2](./AUC.png)
+
+0, 10%, 20%, ···, 1 of data is added to the original dataset. As image shows, it increase the preformance of LSTM model when adding 30% of data.
