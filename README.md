@@ -49,3 +49,6 @@ The 16S rRNA abundance timeseries data used for prediction is small(hurdreds). S
 ![img2](./AUC.png)
 
 0, 10%, 20%, ···, 1 of data is added to the original dataset. As image shows, it increase the preformance of LSTM model when adding 30% of data.
+
+## Reference
+Snow, D. (2020). MTSS-GAN: Multivariate Time Series Simulation Generative Adversarial Networks. Available at SSRN.
